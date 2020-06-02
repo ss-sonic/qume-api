@@ -3,7 +3,7 @@ API Connector for QUME Crypto Exchange
 
     npm install qume-api
 
-API wrapper for the [QUME REST API](https://docs.qume.io/#rest-api). Please refer to [this documentation](https://docs.qume.io) for all calls explained. Check out `sample.js` for lib usage.
+API wrapper for the [QUME REST API](https://docs.qume.io/#rest-api). Please refer to [this documentation](https://docs.qume.io) for all calls explained.
 
 This is a low level wrapper with zero dependencies focussed on speed:
 
