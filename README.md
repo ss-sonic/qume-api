@@ -15,7 +15,7 @@ This is a low level wrapper with zero dependencies focussed on speed:
 ## Usage
 
 ### Import and Initialization
-    ``` 
+
     const QumeAPI = require("qume-api")
 
     const qumeClient = new Qume({
@@ -23,29 +23,23 @@ This is a low level wrapper with zero dependencies focussed on speed:
         apiSecret: "--api-secret--",
         passPhrase: "--pass-phrase--"
     })
-    ```
 
-See sample.js.
 
 ### Standard usage
 
-    ```
     const response = await qumeClient.request({
         method: "GET",
         path: "/wallets"
     })
-    ```
 
 ### Low latency usage
 This library allows you to prepare an API request draft before hand (doing all the heavy work) :
 
-    ```
     const draft = qumeClient.createDraft({
         method: 'GET',
         path: '/wallets'
     });
 
     const data = await qumeClient.requestDraft(draft);
-    ```
 
 Note that this only works in scenarios where you can estimate what will happen or which scenarios might happen: You can create drafts for all of them and only end up sending one later.
