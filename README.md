@@ -27,7 +27,7 @@ This is a low level wrapper with zero dependencies focussed on speed:
 
 ### Standard usage
 
-    const response = await qumeClient.request({
+    const data = await qumeClient.request({
         method: "GET",
         path: "/wallets"
     })
@@ -36,8 +36,8 @@ This is a low level wrapper with zero dependencies focussed on speed:
 This library allows you to prepare an API request draft before hand (doing all the heavy work) :
 
     const draft = qumeClient.createDraft({
-        method: 'GET',
-        path: '/wallets'
+        method: "GET",
+        path: "/wallets"
     });
 
     const data = await qumeClient.requestDraft(draft);
