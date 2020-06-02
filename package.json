@@ -1,0 +1,31 @@
+{
+  "name": "qume-api",
+  "version": "0.0.1",
+  "description": "API wrapper for QUME",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss-sonic/qume-api.git"
+  },
+  "keywords": [
+    "qume",
+    "api",
+    "wrapper",
+    "node",
+    "client",
+    "crypto",
+    "exchange",
+    "derivative",
+    "rest",
+    "nodejs"
+  ],
+  "author": "Shubham Singh <singhshubham009@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ss-sonic/qume-api/issues"
+  },
+  "homepage": "https://github.com/ss-sonic/qume-api#readme"
+}
