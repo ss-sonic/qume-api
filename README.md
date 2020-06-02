@@ -7,10 +7,8 @@ API wrapper for the [QUME REST API](https://docs.qume.io/#rest-api). Please refe
 
 This is a low level wrapper with zero dependencies focussed on speed:
 
-- Disables Nagle's algorithm
-- No complex code
 - No third party libraries
-- Allows you to pre compile your message (see below under low latency usage)\
+- Allows you to pre compile your message (see below under low latency usage)
 
 ## Usage
 
@@ -18,7 +16,7 @@ This is a low level wrapper with zero dependencies focussed on speed:
 
     const QumeAPI = require("qume-api")
 
-    const qumeClient = new Qume({
+    const qumeClient = new QumeAPI({
         apiKey: "--api-key--",
         apiSecret: "--api-secret--",
         passPhrase: "--pass-phrase--"
